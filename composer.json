@@ -1,5 +1,5 @@
 {
-    "name": "gloudemans/shoppingcart",
+    "name": "arturishe21/shoppingcart",
     "description": "Laravel Shoppingcart",
     "keywords": ["laravel", "shoppingcart"],
     "license": "MIT",
@@ -11,25 +11,25 @@
     ],
     "autoload": {
         "psr-4": {
-            "Gloudemans\\Shoppingcart\\": "src/"
+            "Arturishe21\\Shoppingcart\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Gloudemans\\Tests\\Shoppingcart\\": "tests/"
+            "Arturishe21\\Tests\\Shoppingcart\\": "tests/"
         }
     },
     "suggest": {
-        "gloudemans/notify": "Simple flash notifications for Laravel"
+        "arturishe21/notify": "Simple flash notifications for Laravel"
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider"
+                "Arturishe21\\Shoppingcart\\ShoppingcartServiceProvider"
             ],
             "aliases": {
-                "Cart": "Gloudemans\\Shoppingcart\\Facades\\Cart"
+                "Cart": "Arturishe21\\Shoppingcart\\Facades\\Cart"
             }
         }
     }
